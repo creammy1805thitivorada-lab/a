@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio ส่วนตัวสำหรับนักศึกษา นางสาวฐิติวรดา เหลื่อมแก้ว - Student in Digital Business Technology แสดงประวัติการศึกษา ประสบการณ์ฝึกงาน ทักษะ และผลงาน">
+  <meta name="author" content="นางสาวฐิติวรดา เหลื่อมแก้ว">
+  <title>ฐิติวรดา เหลื่อมแก้ว | Student Portfolio</title>
+
+  <!-- Google Fonts: Prompt & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Prompt:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       Top Navigation Bar (8 Menus)
+       ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" id="brand-logo">
+        <div class="brand-badge">TL</div>
+        <div class="brand-text">
+          <span class="brand-name">ฐิติวรดา เหลื่อมแก้ว</span>
+          <span class="brand-role">Student Portfolio</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="เปิดเมนูนำทาง">
+        <i class="fa-solid fa-bars" id="toggle-icon"></i>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active" id="nav-home">หน้าแรก</a></li>
+        <li><a href="#about" class="nav-link" id="nav-about">เกี่ยวกับฉัน</a></li>
+        <li><a href="#education" class="nav-link" id="nav-education">ประวัติการศึกษา</a></li>
+        <li><a href="#internship" class="nav-link" id="nav-internship">ประสบการณ์ฝึกงาน</a></li>
+        <li><a href="#skills" class="nav-link" id="nav-skills">ทักษะ</a></li>
+        <li><a href="#projects" class="nav-link" id="nav-projects">ผลงาน</a></li>
+        <li><a href="#activities" class="nav-link" id="nav-activities">กิจกรรม</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">ติดต่อ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         1. Hero Section (หน้าแรก)
+         ========================================================================== -->
+    <section class="hero section" id="home">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-greeting-badge">
+            <span>สวัสดีค่ะ</span>
+            <span class="wave-hand">👋</span>
+          </div>
+          <h1 class="hero-name">นางสาวฐิติวรดา เหลื่อมแก้ว</h1>
+          <div class="hero-tagline">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Student | Digital Business Technology</span>
+          </div>
+          <p class="hero-desc">
+            นักศึกษาระดับปริญญาตรี ผู้มีความสนใจด้านเทคโนโลยีดิจิทัล การออกแบบเว็บไซต์ และการพัฒนางานด้านธุรกิจดิจิทัล
+            พร้อมเรียนรู้และพัฒนาทักษะจากการศึกษาและประสบการณ์การฝึกงาน
+          </p>
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary" id="hero-btn-profile">
+              <i class="fa-solid fa-user-graduate"></i>
+              <span>ดูประวัติของฉัน</span>
+            </a>
+            <a href="#internship" class="btn btn-secondary" id="hero-btn-internship">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>ประสบการณ์ฝึกงาน</span>
+            </a>
+            <a href="#contact" class="btn btn-outline" id="hero-btn-contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>ติดต่อฉัน</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-stats">
+            <div class="stat-item">
+              <span class="stat-number">3</span>
+              <span class="stat-label">ระดับการศึกษา (ปวช./ปวส./ป.ตรี)</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">2</span>
+              <span class="stat-label">ประสบการณ์ฝึกงานจริง</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">12</span>
+              <span class="stat-label">ทักษะด้านดิจิทัล & เว็บไซต์</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-avatar-wrapper">
+            <img src="assets/images/profile.jpg" alt="ภาพถ่ายนางสาวฐิติวรดา เหลื่อมแก้ว" class="hero-avatar-img"
+              id="hero-avatar-img">
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-top-right">
+            <div class="badge-icon-wrap icon-purple">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <div style="font-size: 0.72rem; color: var(--text-muted);">สถานะปัจจุบัน</div>
+              <div>กำลังศึกษา ป.ตรี</div>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-left">
+            <div class="badge-icon-wrap icon-sky">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div>
+              <div style="font-size: 0.72rem; color: var(--text-muted);">ความสนใจหลัก</div>
+              <div>Web & E-Commerce</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. About Me Section (เกี่ยวกับฉัน)
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-regular fa-user"></i>
+            <span>เกี่ยวกับฉัน</span>
+          </div>
+          <h2 class="section-title">ข้อมูลส่วนตัว & <span class="gradient-text">ความสนใจ</span></h2>
+          <p class="section-subtitle">ข้อมูลพื้นฐาน แนะนำตนเอง และแนวทางการพัฒนาตนเองในสายงานเทคโนโลยีธุรกิจดิจิทัล</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Summary Card -->
+          <div class="glass-card about-summary-card">
+            <div class="about-summary-header">
+              <div class="about-avatar-mini">
+                <img src="assets/images/profile.jpg" alt="ฐิติวรดา เหลื่อมแก้ว">
+              </div>
+              <h3 class="about-name-title">นางสาวฐิติวรดา เหลื่อมแก้ว</h3>
+              <p class="about-role-sub">นักศึกษาเทคโนโลยีธุรกิจดิจิทัล</p>
+            </div>
+
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-item-icon">
+                  <i class="fa-solid fa-id-card"></i>
+                </div>
+                <div class="info-item-content">
+                  <span class="info-item-label">ชื่อ-นามสกุล</span>
+                  <span class="info-item-value">นางสาวฐิติวรดา เหลื่อมแก้ว</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-item-icon">
+                  <i class="fa-solid fa-cake-candles"></i>
+                </div>
+                <div class="info-item-content">
+                  <span class="info-item-label">อายุ</span>
+                  <span class="info-item-value">21 ปี</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-item-icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="info-item-content">
+                  <span class="info-item-label">สถานะ</span>
+                  <span class="info-item-value">กำลังศึกษาระดับปริญญาตรี</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-item-icon">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="info-item-content">
+                  <span class="info-item-label">ความสนใจ</span>
+                  <span class="info-item-value">เทคโนโลยีดิจิทัล การออกแบบเว็บไซต์ E-Commerce และงานออกแบบดิจิทัล</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Details & Student Pillars -->
+          <div class="about-details-col">
+            <div class="glass-card about-highlight-card">
+              <h4 class="highlight-title">
+                <i class="fa-solid fa-compass"></i>
+                <span>เป้าหมายและความมุ่งมั่นในการเรียนรู้</span>
+              </h4>
+              <p class="highlight-desc">
+                ดิฉันเป็นนักศึกษาระดับปริญญาตรีที่มีความตั้งใจในการพัฒนาทักษะด้านเทคโนโลยีและธุรกิจดิจิทัลอย่างต่อเนื่อง
+                โดยต่อยอดความรู้ตั้งแต่ระดับ ปวช., ปวส. จนถึงระดับปริญญาตรี มีพื้นฐานทั้งด้านการออกแบบสื่อดิจิทัล
+                การสร้างเว็บไซต์ และการเข้าใจกระบวนการทำงานจริงจากการฝึกงาน
+              </p>
+
+              <div
+                style="margin-top: 14px; margin-bottom: 8px; font-size: 0.88rem; font-weight: 700; color: var(--text-primary);">
+                สาขาความสนใจเฉพาะทาง (Areas of Interest):
+              </div>
+              <div class="interest-tags">
+                <span class="interest-tag"><i class="fa-solid fa-code"></i> เทคโนโลยีดิจิทัล</span>
+                <span class="interest-tag"><i class="fa-solid fa-globe"></i> การออกแบบเว็บไซต์</span>
+                <span class="interest-tag"><i class="fa-solid fa-cart-shopping"></i> E-Commerce</span>
+                <span class="interest-tag"><i class="fa-solid fa-pen-nib"></i> งานออกแบบดิจิทัล</span>
+              </div>
+            </div>
+
+            <div class="student-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <h5 class="pillar-title">พร้อมเรียนรู้สิ่งใหม่</h5>
+                <p class="pillar-desc">กระตือรือร้นในการศึกษาเครื่องมือและเทคโนโลยียุคใหม่อยู่เสมอ</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-users-viewfinder"></i>
+                </div>
+                <h5 class="pillar-title">ทำงานร่วมกับผู้อื่น</h5>
+                <p class="pillar-desc">มีความรับผิดชอบต่อการทำงานกลุ่ม สื่อสารและรับฟังความคิดเห็น</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h5 class="pillar-title">ประยุกต์สู่ธุรกิจ</h5>
+                <p class="pillar-desc">เชื่อมโยงเทคโนโลยีเข้ากับการบริหารจัดการธุรกิจและร้านค้าออนไลน์</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. Education Section (ประวัติการศึกษา)
+         ========================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>ประวัติการศึกษา</span>
+          </div>
+          <h2 class="section-title">เส้นทางการศึกษา <span class="gradient-text">Education Timeline</span></h2>
+          <p class="section-subtitle">ลำดับการศึกษาตั้งแต่ระดับ ปวช., ปวส. จนถึงระดับปริญญาตรีในปัจจุบัน</p>
+        </div>
+
+        <div class="education-timeline">
+          <!-- Item 1: ปวช. -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-year-badge">
+                  <i class="fa-regular fa-calendar-check"></i>
+                  <span>พ.ศ. 2563–2566</span>
+                </div>
+                <span class="timeline-status-badge badge-completed">สำเร็จการศึกษา</span>
+              </div>
+              <h3 class="timeline-level">ระดับ ประกาศนียบัตรวิชาชีพ (ปวช.)</h3>
+              <div class="timeline-institution">
+                <i class="fa-solid fa-building-columns"></i>
+                <span>วิทยาลัยอาชีวศึกษานครศรีธรรมราช</span>
+              </div>
+              <p class="timeline-detail">
+                ศึกษาและปูพื้นฐานความรู้ด้านคอมพิวเตอร์ธุรกิจ เทคโนโลยีดิจิทัลเบื้องต้น และการจัดทำเอกสารข้อมูลทางธุรกิจ
+                พร้อมทั้งเข้าร่วมกิจกรรมและฝึกประสบการณ์วิชาชีพ
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: ปวส. -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-year-badge">
+                  <i class="fa-regular fa-calendar-check"></i>
+                  <span>พ.ศ. 2567–2568</span>
+                </div>
+                <span class="timeline-status-badge badge-completed">สำเร็จการศึกษา</span>
+              </div>
+              <h3 class="timeline-level">ระดับ ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</h3>
+              <div class="timeline-institution">
+                <i class="fa-solid fa-building-columns"></i>
+                <span>วิทยาลัยอาชีวศึกษานครศรีธรรมราช</span>
+              </div>
+              <p class="timeline-detail">
+                ศึกษาเชิงลึกด้านเทคโนโลยีธุรกิจดิจิทัล การออกแบบกราฟิก การพัฒนาและจัดการเว็บไซต์ การจัดการฐานข้อมูล
+                และระบบการค้าพาณิชย์อิเล็กทรอนิกส์ (E-Commerce)
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: ปริญญาตรี -->
+          <div class="timeline-item">
+            <div class="timeline-node">
+              <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-year-badge">
+                  <i class="fa-regular fa-calendar-check"></i>
+                  <span>พ.ศ. 2569–ปัจจุบัน</span>
+                </div>
+                <span class="timeline-status-badge badge-current">กำลังศึกษาอยู่</span>
+              </div>
+              <h3 class="timeline-level">ระดับปริญญาตรี</h3>
+              <div class="timeline-institution">
+                <i class="fa-solid fa-university"></i>
+                <span>กำลังศึกษาอยู่</span>
+              </div>
+              <p class="timeline-detail">
+                มุ่งเน้นการต่อยอดทักษะการวิเคราะห์และพัฒนานวัตกรรมธุรกิจดิจิทัล การออกแบบประสบการณ์ผู้ใช้ (UI/UX)
+                และการประยุกต์ใช้เทคโนโลยียุคใหม่สำหรับการทำงานจริง
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. Internship Section (ประสบการณ์ฝึกงาน)
+         ========================================================================== -->
+    <section class="section" id="internship">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>ประสบการณ์ฝึกงาน</span>
+          </div>
+          <h2 class="section-title">การฝึกงาน <span class="gradient-text">Internship Experience</span></h2>
+          <p class="section-subtitle">ประสบการณ์การฝึกประสบการณ์วิชาชีพจริงทั้งในหน่วยงานราชการและองค์กรธุรกิจเอกชน</p>
+        </div>
+
+        <div class="internship-grid">
+          <!-- Internship 1: กรมที่ดินนครศรีธรรมราช -->
+          <div class="glass-card internship-card">
+            <div>
+              <div class="internship-header">
+                <div class="internship-icon-box"
+                  style="background: rgba(124, 58, 237, 0.12); color: var(--primary-purple);">
+                  <i class="fa-solid fa-landmark"></i>
+                </div>
+                <div class="internship-title-group">
+                  <div class="internship-term">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>ช่วง ปวช.2</span>
+                  </div>
+                  <h3 class="internship-company">กรมที่ดินนครศรีธรรมราช</h3>
+                  <div class="internship-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>จังหวัดนครศรีธรรมราช</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="internship-body">
+                <div class="internship-role-title">
+                  <i class="fa-solid fa-file-invoice"></i>
+                  <span>หน้าที่และความรับผิดชอบ:</span>
+                </div>
+                <ul class="internship-task-list">
+                  <li>ปฏิบัติงานสนับสนุนงานสารบรรณและการจัดการเอกสารทางราชการ</li>
+                  <li>บันทึกและจัดระเบียบข้อมูลเข้าสู่ระบบคอมพิวเตอร์อย่างเป็นระเบียบถูกต้อง</li>
+                  <li>ตรวจสอบความถูกต้องของข้อมูลเอกสารและหลักฐานต่างๆ</li>
+                  <li>อำนวยความสะดวกและประสานงานบริการประชาชนที่มาติดต่อราชการ</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="internship-learnings">
+              <div class="learnings-title">ทักษะและสิ่งที่ได้เรียนรู้:</div>
+              <div class="learning-tags">
+                <span class="learning-tag">การจัดการเอกสารราชการ</span>
+                <span class="learning-tag">ความละเอียดรอบคอบ</span>
+                <span class="learning-tag">การบันทึกข้อมูลดิจิทัล</span>
+                <span class="learning-tag">การประสานงานและบริการ</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Internship 2: บิ๊กซี สาขาสะพานควาย -->
+          <div class="glass-card internship-card">
+            <div>
+              <div class="internship-header">
+                <div class="internship-icon-box"
+                  style="background: rgba(14, 165, 233, 0.12); color: var(--primary-sky);">
+                  <i class="fa-solid fa-store"></i>
+                </div>
+                <div class="internship-title-group">
+                  <div class="internship-term">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>ช่วง ปวส.2</span>
+                  </div>
+                  <h3 class="internship-company">บิ๊กซี ซูเปอร์เซ็นเตอร์ สาขาสะพานควาย</h3>
+                  <div class="internship-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>กรุงเทพมหานคร</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="internship-body">
+                <div class="internship-role-title">
+                  <i class="fa-solid fa-boxes-stacked"></i>
+                  <span>หน้าที่และความรับผิดชอบ:</span>
+                </div>
+                <ul class="internship-task-list">
+                  <li>ปฏิบัติงานสนับสนุนระบบการจัดการสินค้าและระบบงานหน้าร้านธุรกิจค้าปลีก</li>
+                  <li>ตรวจสอบรายการข้อมูลสต็อกสินค้าและระบบข้อมูลการจัดจำหน่าย</li>
+                  <li>เรียนรู้กระบวนการจัดหมวดหมู่สินค้าและระบบ POS (Point of Sale)</li>
+                  <li>ประสานงานกับทีมงานฝ่ายต่างๆ และสนับสนุนการให้บริการลูกค้า</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="internship-learnings">
+              <div class="learnings-title">ทักษะและสิ่งที่ได้เรียนรู้:</div>
+              <div class="learning-tags">
+                <span class="learning-tag">การบริหารสินค้าในธุรกิจค้าปลีก</span>
+                <span class="learning-tag">ระบบบริหารข้อมูลสต็อก</span>
+                <span class="learning-tag">การทำงานเป็นทีมในองค์กรใหญ่</span>
+                <span class="learning-tag">การแก้ปัญหาเฉพาะหน้า</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. Skills Section (ทักษะ)
+         ========================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>ทักษะความสามารถ</span>
+          </div>
+          <h2 class="section-title">ทักษะด้านดิจิทัล <span class="gradient-text">Skills & Tools</span></h2>
+          <p class="section-subtitle">ความรู้และเครื่องมือที่ได้เรียนรู้และฝึกปฏิบัติจริงในระหว่างการศึกษา</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="skills-filter">
+          <button class="filter-btn active" data-filter="all">ทั้งหมด (2)</button>
+        </div>
+
+        <!-- 12 Skills Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- 1. Canva -->
+          <div class="glass-card skill-card" data-category="design">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="skill-title">Canva</h3>
+            <span class="skill-category-badge">Graphic & Media</span>
+            <p class="skill-note">ออกแบบสไลด์นำเสนอ โปสเตอร์ อินโฟกราฟิก และสื่อโปรโมตออนไลน์</p>
+          </div>
+
+          <!-- 2. Graphic Design -->
+          <div class="glass-card skill-card" data-category="design">
+            <div class="skill-icon-wrapper">
+              <i class="fa-solid fa-bezier-curve"></i>
+            </div>
+            <h3 class="skill-title">Graphic Design</h3>
+            <span class="skill-category-badge">Design Skill</span>
+            <p class="skill-note">หลักการจัดวางองค์ประกอบ การเลือกใช้คู่สี และการสื่อสารผ่านภาพ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. Projects Section (ผลงาน)
+         ========================================================================== -->
+    <!-- ==========================================================================
+     6. Projects Section (ผลงาน)
+     ========================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-award"></i>
+            <span>ผลงานและคุณวุฒิ</span>
+          </div>
+
+          <h2 class="section-title">
+            ผลงาน <span class="gradient-text">Featured Achievement</span>
+          </h2>
+
+          <p class="section-subtitle">
+            คุณวุฒิวิชาชีพและผลงานที่ได้รับระหว่างการศึกษา
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- คุณวุฒิวิชาชีพ -->
+          <div class="glass-card project-card">
+
+            <!-- รูปใบคุณวุฒิ -->
+            <div class="project-media">
+
+              <img src="assets/images/certificate.jpg" alt="ใบคุณวุฒิวิชาชีพนักพาณิชย์อิเล็กทรอนิกส์ ระดับ 4" style="
+              width:100%;
+              height:260px;
+              object-fit:contain;
+              background:#f5f7ff;
+              border-radius:15px;
+            ">
+
+              <span class="project-category-tag">
+                คุณวุฒิวิชาชีพ
+              </span>
+
+            </div>
+
+            <!-- ข้อมูลผลงาน -->
+            <div class="project-content">
+
+              <h3 class="project-title">
+                คุณวุฒิวิชาชีพนักพาณิชย์อิเล็กทรอนิกส์ ระดับ 4
+              </h3>
+
+              <p class="project-desc">
+                ได้รับคุณวุฒิวิชาชีพ สาขาวิชาชีพอุตสาหกรรมดิจิทัล
+                สาขาธุรกิจดิจิทัลและพาณิชย์อิเล็กทรอนิกส์
+                อาชีพนักพาณิชย์อิเล็กทรอนิกส์ ระดับ 4
+              </p>
+
+              <div class="project-tags">
+
+                <span class="project-tag-pill">
+                  Digital Business
+                </span>
+
+                <span class="project-tag-pill">
+                  E-Commerce
+                </span>
+
+                <span class="project-tag-pill">
+                  ระดับ 4
+                </span>
+
+              </div>
+
+              <!-- ปุ่มดูใบประกาศ -->
+              <div class="project-action">
+
+                <a href="assets/images/certificate.jpg" target="_blank" class="btn-detail">
+                  <i class="fa-solid fa-file-image"></i>
+                  <span>ดูใบคุณวุฒิ</span>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. Activities Section (กิจกรรม)
+         ========================================================================== -->
+    <section class="section" id="activities">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-solid fa-people-group"></i>
+            <span>กิจกรรมระหว่างศึกษา</span>
+          </div>
+          <h2 class="section-title">กิจกรรมและการมีส่วนร่วม <span class="gradient-text">Activities</span></h2>
+          <p class="section-subtitle">ประสบการณ์การทำงานร่วมกับผู้อื่น การนำเสนอผลงาน และการเข้าร่วมอบรมทางวิชาการ</p>
+        </div>
+
+        <div class="activities-grid">
+          <!-- Activity 1: การทำงานกลุ่ม -->
+          <div class="glass-card activity-card">
+            <div class="activity-icon-box">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <span class="activity-badge">Teamwork</span>
+            <h3 class="activity-title">การทำงานกลุ่ม</h3>
+            <p class="activity-desc">
+              ร่วมมือกับเพื่อนร่วมชั้นในการวางแผน แบ่งบทบาทหน้าที่
+              และพัฒนาโครงงานเทคโนโลยีสารสนเทศและธุรกิจดิจิทัลให้สำเร็จตามเป้าหมายของรายวิชา
+            </p>
+          </div>
+
+          <!-- Activity 2: การนำเสนอ -->
+          <div class="glass-card activity-card">
+            <div class="activity-icon-box">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <span class="activity-badge">Presentation</span>
+            <h3 class="activity-title">การนำเสนอผลงาน</h3>
+            <p class="activity-desc">
+              นำเสนอโครงงาน ผลงานเว็บไซต์ และแผนธุรกิจจำลองต่อหน้าอาจารย์ผู้สอนและเพื่อนในชั้นเรียน ฝึกฝนทักษะการพูด
+              การสื่อสาร และการตอบข้อซักถาม
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. Contact Section (ติดต่อ)
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <i class="fa-regular fa-paper-plane"></i>
+            <span>ติดต่อฉัน</span>
+          </div>
+          <h2 class="section-title">ช่องทางการติดต่อ <span class="gradient-text">Contact Information</span></h2>
+          <p class="section-subtitle">สำหรับอาจารย์ผู้สอนหรือผู้สนใจ
+            สามารถติดต่อสอบถามข้อมูลเพิ่มเติมได้ตามช่องทางด้านล่าง</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information Card -->
+          <div class="glass-card contact-info-card">
+            <div>
+              <div class="contact-info-header">
+                <h3 class="contact-title">นางสาวฐิติวรดา เหลื่อมแก้ว</h3>
+                <p class="contact-desc">
+                  ยินดีรับฟังคำแนะนำ ติชมผลงาน และพร้อมเปิดรับโอกาสในการเรียนรู้ใหม่ๆ เสมอค่ะ
+                </p>
+              </div>
+
+              <div class="contact-methods">
+                <!-- Email -->
+                <div class="contact-method-item">
+                  <div class="contact-method-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <span class="contact-method-label">อีเมล (Email)</span>
+                    <span class="contact-method-value" id="text-email">creammy1805thitivorada@email.com</span>
+                  </div>
+                  <button class="copy-btn" data-copy="thitivorada.lueamkaew@email.com" title="คัดลอกอีเมล"
+                    aria-label="คัดลอกอีเมล">
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-method-item">
+                  <div class="contact-method-icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <span class="contact-method-label">เบอร์โทรศัพท์ (Phone)</span>
+                    <span class="contact-method-value" id="text-phone">065-467-2823</span>
+                  </div>
+                  <button class="copy-btn" data-copy="08X-XXX-XXXX" title="คัดลอกเบอร์โทรศัพท์"
+                    aria-label="คัดลอกเบอร์โทรศัพท์">
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                </div>
+
+                <!-- Location -->
+                <div class="contact-method-item">
+                  <div class="contact-method-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="contact-method-text">
+                    <span class="contact-method-label">สถานที่ (Location)</span>
+                    <span class="contact-method-value">นครศรีธรรมราช /ประเทศไทย</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-student-note">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>เว็บไซต์นี้จัดทำขึ้นเพื่อการนำเสนอผลงานทางวิชาการและโครงงานนักศึกษา</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="glass-card contact-form-card">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">ชื่อผู้ติดต่อ <span class="req">*</span></label>
+                <input type="text" id="contact-name" name="name" class="form-control"
+                  placeholder="กรุณากรอกชื่อ-นามสกุลของคุณ" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">อีเมล <span class="req">*</span></label>
+                <input type="email" id="contact-email" name="email" class="form-control" placeholder="example@email.com"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">หัวข้อ <span class="req">*</span></label>
+                <input type="text" id="contact-subject" name="subject" class="form-control"
+                  placeholder="หัวข้อเรื่องที่ต้องการติดต่อ หรือคำแนะนำ" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">ข้อความ <span class="req">*</span></label>
+                <textarea id="contact-message" name="message" class="form-control"
+                  placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-form">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>ส่งข้อความ</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-brand-title">นางสาวฐิติวรดา เหลื่อมแก้ว</span>
+          <span class="footer-brand-sub">Student | Digital Business Technology</span>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link">หน้าแรก</a></li>
+          <li><a href="#about" class="footer-link">เกี่ยวกับฉัน</a></li>
+          <li><a href="#education" class="footer-link">การศึกษา</a></li>
+          <li><a href="#internship" class="footer-link">ฝึกงาน</a></li>
+          <li><a href="#skills" class="footer-link">ทักษะ</a></li>
+          <li><a href="#projects" class="footer-link">ผลงาน</a></li>
+          <li><a href="#activities" class="footer-link">กิจกรรม</a></li>
+          <li><a href="#contact" class="footer-link">ติดต่อ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright-text">
+          © 2026 Thitivorada Lueamkaew | Student Portfolio
+        </div>
+        <a href="#home" class="back-to-top" id="back-to-top" aria-label="เลื่อนกลับขึ้นด้านบน">
+          <i class="fa-solid fa-arrow-up"></i>
+          <span>กลับสู่ด้านบน</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Project Detail Modal (Interactive Viewer)
+       ========================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-project-title">รายละเอียดผลงาน</h3>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="ปิดหน้าต่างรายละเอียด">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-project-body">
+        <!-- Content will be injected dynamically via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="modal-close-action">ปิดหน้าต่าง</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Custom Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
